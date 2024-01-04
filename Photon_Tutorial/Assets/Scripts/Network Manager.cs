@@ -29,7 +29,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         roomOptions.IsVisible = true;
         roomOptions.IsOpen = true;
 
-        PhotonNetwork.JoinOrCreateRoom("Roon 1", roomOptions, TypedLobby.Default );
+        PhotonNetwork.JoinOrCreateRoom("Room 1", roomOptions, TypedLobby.Default );
     }
 
     public override void OnJoinedRoom()
